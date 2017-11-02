@@ -1,0 +1,125 @@
+
+/*******************************************************
+ * OVERRIDE MATERIALIZECSS
+ ********************/
+
+ body{
+    font-family: "Source Code Pro", "monaco", "PT Mono", "Courier", monospace;
+    font-weight: 400;
+    font-size: 18px;
+    margin:0px;
+    background: rgba(118,188,92,1);
+    background: -moz-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(118,188,92,1)), color-stop(100%, rgba(68,203,233,1)));
+    background: -webkit-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+    background: linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76bc5c', endColorstr='#44cbe9', GradientType=1 );
+    /*color: #fff;*/
+  }
+  
+  body a:hover{
+    text-decoration: none;
+  }
+
+  .btn, .btn-large, .btn:hover, .btn-large:hover {
+    box-shadow: none;
+  }
+  nav{
+    background-color: black;
+  }
+  .nav-wrapper {
+    background-color:black;
+  }
+  
+  .nav-wrapper a{
+    font-weight:bold;
+    font-size:40px;
+  }
+
+#letter_D, #letter_v, #letter_e, #letter_n, #left_char, #right_char, #colon-brace, #brace{
+  font-family: "Source Code Pro", "monaco", "PT Mono", "Courier", monospace;
+  font-weight:bold;
+}
+  #letter_D{
+    color:#D7323C;
+    }
+    
+#letter_e{
+    color:#1DC0E4;
+}
+    
+#letter_v, #letter_n,#left_char,#right_char, #colon-brace, #brace{
+    color:#5FA945;
+}
+    
+#letter_C{
+    color:#FDC807;
+}
+    
+#letter_o{
+    color:#EB5228;
+}
+  .container ul li a{
+    background-color:transparent;
+  }
+  
+  .container ul li a:hover {
+    background-color:white;
+    color:black
+  }
+  
+  .uk-modal-container .btn-large{
+    background-color: transparent;
+    color:black;
+    border:2px solid black;
+  }
+  
+  .uk-modal-container h4, .uk-card-body .meetup-title, .uk-modal-container h5{
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  .uk-card-title{
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  .uk-text-center p{
+    font-family: 'Source Code Pro', monospace;
+    color:#000;
+    font-weight:bold;
+  }
+  
+  .info {
+    color: #EB5228;
+  }
+  
+  .notes {
+    font-size: 10px;
+    color: black;
+    padding-top: -100px;
+  }
+  
+  .uk-modal-container{
+    color:black;
+  }
+  
+  .uk-modal-container .locations ul li a{
+    color:#1DC0E4;
+  }
+  
+  .uk-modal-container .locations ul li a:hover{
+    color:black;
+  }
+  
+  .row ul li a{
+    text-shadow:1px 1px 1px black;
+  }
+  
+  .row ul li a:hover{
+    background-color:transparent;
+  }
+
+  
+  
+  

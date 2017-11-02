@@ -1,0 +1,107 @@
+ body{
+    font-family: "Source Code Pro", "monaco", "PT Mono", "Courier", monospace;
+    font-weight: 400;
+    font-size: 18px;
+    margin:0px;
+    /*background-color: #fff;
+    color: #fff;*/
+    background: rgba(118,188,92,1);
+    background: -moz-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(118,188,92,1)), color-stop(100%, rgba(68,203,233,1)));
+    background: -webkit-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+    background: linear-gradient(45deg, rgba(118,188,92,1) 0%, rgba(68,203,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76bc5c', endColorstr='#44cbe9', GradientType=1 );
+  }
+  
+  body a:hover{
+    text-decoration: none;
+  }
+
+  .btn, .btn-large, .btn:hover, .btn-large:hover {
+    box-shadow: none;
+  }
+  nav{
+    background-color: black;
+  }
+  .nav-wrapper {
+    background-color:black;
+  }
+  
+  .nav-wrapper a{
+    font-weight:bold;
+    font-size:40px;
+  }
+  
+  #letter_D, #letter_n{
+  color:#D7323C;
+  }
+  
+  #letter_e{
+  color:#1DC0E4;
+  }
+  
+  #letter_v,#left_char,#right_char{
+  color:#5FA945;
+  }
+  
+  #letter_C{
+  color:#FDC807;
+  }
+  
+  #letter_o{
+  color:#EB5228;
+  }
+
+  .wrapper {
+    padding-top: 60px;
+  }
+  
+  .half-wrapper {
+    padding-top: 30px;
+  }
+  
+  .meetup-title {
+    font-weight: bold;
+  }
+  
+  .meetup-location, .meetup-date, .meetup-time {
+    font-size:12px;
+  }
+  
+  .info {
+    color: #EB5228;
+  }
+  .notes {
+    font-size: 10px;
+    color: black;
+    padding-top: -100px;
+  }
+  .container .section form{
+    background:transparent;
+  }
+  
+  .section label, .section input{
+   color:black;
+  }
+  
+  .section form {
+  box-shadow:3px 3px 10px black;
+  border-radius:20px 20px 20px 20px;
+  border:2px solid black;
+  }
+  
+  .section form .btn-large{
+    background-color:transparent;
+    color:black;
+    border:2px solid black;
+  }
+  
+  .section form .btn-large:hover{
+    box-shadow:3px 3px 3px black;
+    text-shadow:1px 1px 1px black;
+  }
+  
+  
+  
